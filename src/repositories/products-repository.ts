@@ -3,7 +3,7 @@ type ProductType ={
   id: string
 }
 
-let products: ProductType[] = [{id: '1', title: 'tomato'}, {id: '2', title: 'orange'}, {id: '3', title: 'cucumber'}]
+let products: ProductType[] = [{id: '1', title: 'tomato'}, {id: '2', title: 'orange'}, {id: '3', title: 'cucumber'}, {id: '4', title: 'potatoes'}]
 export const productsRepository = {
   getProducts(): ProductType[] {
     return products
